@@ -1,6 +1,6 @@
 def square_array(array)
   array.each do |x|
     i = x ** 2
-    Array.new(,i)
+    na = Array.new(,i)
   end
 end
